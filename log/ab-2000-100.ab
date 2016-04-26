@@ -1,0 +1,45 @@
+################################################################################
+# http://192.168.3.10:9000/api/org
+> 2016-04-26T08:34:16Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-26T08:34:46Z
+################################################################################
+# http://192.168.3.10:9000/api/province
+> 2016-04-26T08:34:46Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-26T08:35:16Z
+################################################################################
+# http://192.168.3.10:9000/api/official?keyword=
+> 2016-04-26T08:35:16Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-26T08:35:46Z
+################################################################################
+# http://192.168.3.10:9000/api/official/up46341
+> 2016-04-26T08:35:46Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-26T08:36:16Z
+################################################################################
+# http://192.168.3.10:9000/api/official?election=1&province=&municipal=&dong=
+> 2016-04-26T08:36:16Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-26T08:36:46Z
