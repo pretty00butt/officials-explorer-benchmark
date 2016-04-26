@@ -1,0 +1,193 @@
+################################################################################
+# http://192.168.3.10:9000/api/org
+> 2016-04-25T09:33:12Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+
+
+Server Software:        
+Server Hostname:        192.168.3.10
+Server Port:            9000
+
+Document Path:          /api/org
+Document Length:        330 bytes
+
+Concurrency Level:      80
+Time taken for tests:   2.290 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1114000 bytes
+HTML transferred:       660000 bytes
+Requests per second:    873.52 [#/sec] (mean)
+Time per request:       91.584 [ms] (mean)
+Time per request:       1.145 [ms] (mean, across all concurrent requests)
+Transfer rate:          475.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.5      0      12
+Processing:    53   90  11.0     88     159
+Waiting:       53   89  10.9     87     158
+Total:         53   90  11.6     88     162
+
+Percentage of the requests served within a certain time (ms)
+  50%     88
+  66%     89
+  75%     90
+  80%     90
+  90%    105
+  95%    112
+  98%    126
+  99%    144
+ 100%    162 (longest request)
+< 2016-04-25T09:33:14Z
+################################################################################
+# http://192.168.3.10:9000/api/province
+> 2016-04-25T09:33:14Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+
+
+Server Software:        
+Server Hostname:        192.168.3.10
+Server Port:            9000
+
+Document Path:          /api/province
+Document Length:        569 bytes
+
+Concurrency Level:      80
+Time taken for tests:   2.802 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1592000 bytes
+HTML transferred:       1138000 bytes
+Requests per second:    713.75 [#/sec] (mean)
+Time per request:       112.085 [ms] (mean)
+Time per request:       1.401 [ms] (mean, across all concurrent requests)
+Transfer rate:          554.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       2
+Processing:    34  111  11.9    110     153
+Waiting:       33  110  11.8    109     152
+Total:         35  111  11.8    110     153
+
+Percentage of the requests served within a certain time (ms)
+  50%    110
+  66%    111
+  75%    111
+  80%    112
+  90%    117
+  95%    133
+  98%    138
+  99%    148
+ 100%    153 (longest request)
+< 2016-04-25T09:33:17Z
+################################################################################
+# http://192.168.3.10:9000/api/official?keyword=
+> 2016-04-25T09:33:17Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+
+
+Server Software:        
+Server Hostname:        192.168.3.10
+Server Port:            9000
+
+Document Path:          /api/official?keyword=
+Document Length:        14515 bytes
+
+Concurrency Level:      80
+Time taken for tests:   236.927 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      29490000 bytes
+HTML transferred:       29030000 bytes
+Requests per second:    8.44 [#/sec] (mean)
+Time per request:       9477.093 [ms] (mean)
+Time per request:       118.464 [ms] (mean, across all concurrent requests)
+Transfer rate:          121.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       2
+Processing:  8486 9457 126.8   9470    9796
+Waiting:     8486 9454 126.6   9468    9792
+Total:       8488 9457 126.7   9471    9797
+
+Percentage of the requests served within a certain time (ms)
+  50%   9471
+  66%   9507
+  75%   9523
+  80%   9538
+  90%   9569
+  95%   9598
+  98%   9628
+  99%   9659
+ 100%   9797 (longest request)
+< 2016-04-25T09:37:14Z
+################################################################################
+# http://192.168.3.10:9000/api/official/up46341
+> 2016-04-25T09:37:14Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+
+
+Server Software:        
+Server Hostname:        192.168.3.10
+Server Port:            9000
+
+Document Path:          /api/official/up46341
+Document Length:        1650 bytes
+
+Concurrency Level:      80
+Time taken for tests:   10.748 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      3756000 bytes
+HTML transferred:       3300000 bytes
+Requests per second:    186.07 [#/sec] (mean)
+Time per request:       429.935 [ms] (mean)
+Time per request:       5.374 [ms] (mean, across all concurrent requests)
+Transfer rate:          341.26 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       2
+Processing:   213  425  35.6    417     628
+Waiting:      211  418  35.3    410     624
+Total:        214  425  35.5    417     629
+
+Percentage of the requests served within a certain time (ms)
+  50%    417
+  66%    428
+  75%    440
+  80%    449
+  90%    467
+  95%    475
+  98%    483
+  99%    537
+ 100%    629 (longest request)
+< 2016-04-25T09:37:24Z
+################################################################################
+# http://192.168.3.10:9000/api/official?election=1&province=&municipal=&dong=
+> 2016-04-25T09:37:24Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.3.10 (be patient)
+< 2016-04-25T09:37:54Z
