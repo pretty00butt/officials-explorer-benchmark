@@ -1,7 +1,7 @@
 #!/bin/sh
 
-(bash cpu-mem-log.sh 29065 | tee log/mysqld-$1-$2.log &)
-(bash cpu-mem-log.sh  6768 | tee log/node-$1-$2.log &)
+(bash cpu-mem-log.sh 1161 | tee log/mysqld-$1-$2.log &)
+(bash cpu-mem-log.sh 24592 | tee log/node-$1-$2.log &)
 
 sleep 10
 

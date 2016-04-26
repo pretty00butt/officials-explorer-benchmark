@@ -1,45 +1,230 @@
 ################################################################################
-# http://192.168.3.10:9000/api/org
-> 2016-04-26T08:34:16Z
+# http://128.199.128.104:3000/api/org
+> 2016-04-26T09:30:46Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking 192.168.3.10 (be patient)
-< 2016-04-26T08:34:46Z
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/org
+Document Length:        330 bytes
+
+Concurrency Level:      100
+Time taken for tests:   9.603 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1114000 bytes
+HTML transferred:       660000 bytes
+Requests per second:    208.26 [#/sec] (mean)
+Time per request:       480.162 [ms] (mean)
+Time per request:       4.802 [ms] (mean, across all concurrent requests)
+Transfer rate:          113.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.6      0      14
+Processing:   242  473 108.7    444     852
+Waiting:      238  469 108.3    440     849
+Total:        255  473 108.7    444     854
+
+Percentage of the requests served within a certain time (ms)
+  50%    444
+  66%    470
+  75%    492
+  80%    509
+  90%    664
+  95%    724
+  98%    819
+  99%    848
+ 100%    854 (longest request)
+< 2016-04-26T09:30:55Z
 ################################################################################
-# http://192.168.3.10:9000/api/province
-> 2016-04-26T08:34:46Z
+# http://128.199.128.104:3000/api/province
+> 2016-04-26T09:30:55Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking 192.168.3.10 (be patient)
-< 2016-04-26T08:35:16Z
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/province
+Document Length:        569 bytes
+
+Concurrency Level:      100
+Time taken for tests:   10.606 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1592000 bytes
+HTML transferred:       1138000 bytes
+Requests per second:    188.57 [#/sec] (mean)
+Time per request:       530.295 [ms] (mean)
+Time per request:       5.303 [ms] (mean, across all concurrent requests)
+Transfer rate:          146.59 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.9      0      13
+Processing:   140  521  52.9    524     710
+Waiting:      138  517  52.7    520     706
+Total:        153  521  52.0    524     718
+
+Percentage of the requests served within a certain time (ms)
+  50%    524
+  66%    533
+  75%    545
+  80%    552
+  90%    571
+  95%    584
+  98%    597
+  99%    609
+ 100%    718 (longest request)
+< 2016-04-26T09:31:06Z
 ################################################################################
-# http://192.168.3.10:9000/api/official?keyword=
-> 2016-04-26T08:35:16Z
+# http://128.199.128.104:3000/api/official?keyword=
+> 2016-04-26T09:31:06Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking 192.168.3.10 (be patient)
-< 2016-04-26T08:35:46Z
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official?keyword=
+Document Length:        14515 bytes
+
+Concurrency Level:      100
+Time taken for tests:   7.547 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      29490000 bytes
+HTML transferred:       29030000 bytes
+Requests per second:    264.99 [#/sec] (mean)
+Time per request:       377.375 [ms] (mean)
+Time per request:       3.774 [ms] (mean, across all concurrent requests)
+Transfer rate:          3815.68 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   2.3      0      18
+Processing:    81  369  43.9    378     431
+Waiting:       76  363  44.6    373     429
+Total:         99  370  42.1    378     431
+
+Percentage of the requests served within a certain time (ms)
+  50%    378
+  66%    390
+  75%    395
+  80%    397
+  90%    404
+  95%    410
+  98%    430
+  99%    430
+ 100%    431 (longest request)
+< 2016-04-26T09:31:14Z
 ################################################################################
-# http://192.168.3.10:9000/api/official/up46341
-> 2016-04-26T08:35:46Z
+# http://128.199.128.104:3000/api/official/up46341
+> 2016-04-26T09:31:14Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking 192.168.3.10 (be patient)
-< 2016-04-26T08:36:16Z
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official/up46341
+Document Length:        1650 bytes
+
+Concurrency Level:      100
+Time taken for tests:   41.645 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      3756000 bytes
+HTML transferred:       3300000 bytes
+Requests per second:    48.02 [#/sec] (mean)
+Time per request:       2082.268 [ms] (mean)
+Time per request:       20.823 [ms] (mean, across all concurrent requests)
+Transfer rate:          88.08 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.3      0      14
+Processing:   905 2053 184.7   2067    2895
+Waiting:      897 2050 185.2   2063    2892
+Total:        918 2054 183.8   2067    2901
+
+Percentage of the requests served within a certain time (ms)
+  50%   2067
+  66%   2098
+  75%   2119
+  80%   2139
+  90%   2199
+  95%   2249
+  98%   2300
+  99%   2485
+ 100%   2901 (longest request)
+< 2016-04-26T09:31:55Z
 ################################################################################
-# http://192.168.3.10:9000/api/official?election=1&province=&municipal=&dong=
-> 2016-04-26T08:36:16Z
+# http://128.199.128.104:3000/api/official?election=1&province=&municipal=&dong=
+> 2016-04-26T09:31:55Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
-Benchmarking 192.168.3.10 (be patient)
-< 2016-04-26T08:36:46Z
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official?election=1&province=&municipal=&dong=
+Document Length:        11999 bytes
+
+Concurrency Level:      100
+Time taken for tests:   7.119 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      24458000 bytes
+HTML transferred:       23998000 bytes
+Requests per second:    280.93 [#/sec] (mean)
+Time per request:       355.960 [ms] (mean)
+Time per request:       3.560 [ms] (mean, across all concurrent requests)
+Transfer rate:          3354.98 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.2      0      15
+Processing:    70  349  48.4    357     427
+Waiting:       64  342  48.1    351     425
+Total:         85  349  46.7    357     427
+
+Percentage of the requests served within a certain time (ms)
+  50%    357
+  66%    366
+  75%    376
+  80%    379
+  90%    401
+  95%    412
+  98%    419
+  99%    427
+ 100%    427 (longest request)
+< 2016-04-26T09:32:02Z
