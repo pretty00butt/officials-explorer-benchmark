@@ -1,6 +1,6 @@
 ################################################################################
 # http://128.199.128.104:3000/api/org
-> 2016-04-29T01:57:36Z
+> 2016-04-29T02:03:32Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -15,38 +15,38 @@ Server Port:            3000
 Document Path:          /api/org
 Document Length:        330 bytes
 
-Concurrency Level:      80
-Time taken for tests:   11.513 seconds
+Concurrency Level:      110
+Time taken for tests:   9.595 seconds
 Complete requests:      2000
 Failed requests:        0
 Total transferred:      1114000 bytes
 HTML transferred:       660000 bytes
-Requests per second:    173.72 [#/sec] (mean)
-Time per request:       460.512 [ms] (mean)
-Time per request:       5.756 [ms] (mean, across all concurrent requests)
-Transfer rate:          94.49 [Kbytes/sec] received
+Requests per second:    208.44 [#/sec] (mean)
+Time per request:       527.741 [ms] (mean)
+Time per request:       4.798 [ms] (mean, across all concurrent requests)
+Transfer rate:          113.38 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   1.4      0      13
-Processing:   162  456 184.3    393    1048
-Waiting:      162  452 183.0    390    1045
-Total:        175  456 184.1    393    1048
+Connect:        0    1   2.3      0      14
+Processing:   237  521 262.7    432    1579
+Waiting:      236  517 261.6    430    1574
+Total:        237  521 262.9    433    1579
 
 Percentage of the requests served within a certain time (ms)
-  50%    393
-  66%    451
-  75%    555
-  80%    623
-  90%    709
-  95%    840
-  98%   1012
-  99%   1028
- 100%   1048 (longest request)
-< 2016-04-29T01:57:48Z
+  50%    433
+  66%    455
+  75%    503
+  80%    543
+  90%    773
+  95%   1270
+  98%   1503
+  99%   1545
+ 100%   1579 (longest request)
+< 2016-04-29T02:03:41Z
 ################################################################################
 # http://128.199.128.104:3000/api/province
-> 2016-04-29T01:57:48Z
+> 2016-04-29T02:03:41Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -61,38 +61,38 @@ Server Port:            3000
 Document Path:          /api/province
 Document Length:        569 bytes
 
-Concurrency Level:      80
-Time taken for tests:   10.575 seconds
+Concurrency Level:      110
+Time taken for tests:   11.449 seconds
 Complete requests:      2000
 Failed requests:        0
 Total transferred:      1592000 bytes
 HTML transferred:       1138000 bytes
-Requests per second:    189.12 [#/sec] (mean)
-Time per request:       423.001 [ms] (mean)
-Time per request:       5.288 [ms] (mean, across all concurrent requests)
-Transfer rate:          147.01 [Kbytes/sec] received
+Requests per second:    174.69 [#/sec] (mean)
+Time per request:       629.704 [ms] (mean)
+Time per request:       5.725 [ms] (mean, across all concurrent requests)
+Transfer rate:          135.79 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   1.0      0      10
-Processing:    94  418  90.1    395     729
-Waiting:       92  415  89.9    392     726
-Total:        103  418  89.8    395     729
+Connect:        0    1   2.4      0      16
+Processing:   153  614 157.5    553    1051
+Waiting:      150  611 157.0    551    1047
+Total:        169  615 156.5    554    1051
 
 Percentage of the requests served within a certain time (ms)
-  50%    395
-  66%    411
-  75%    431
-  80%    440
-  90%    497
-  95%    674
-  98%    718
-  99%    722
- 100%    729 (longest request)
-< 2016-04-29T01:57:58Z
+  50%    554
+  66%    614
+  75%    693
+  80%    759
+  90%    860
+  95%    962
+  98%   1007
+  99%   1032
+ 100%   1051 (longest request)
+< 2016-04-29T02:03:53Z
 ################################################################################
 # http://128.199.128.104:3000/api/official?keyword=
-> 2016-04-29T01:57:58Z
+> 2016-04-29T02:03:53Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -107,38 +107,38 @@ Server Port:            3000
 Document Path:          /api/official?keyword=
 Document Length:        14515 bytes
 
-Concurrency Level:      80
-Time taken for tests:   8.080 seconds
+Concurrency Level:      110
+Time taken for tests:   6.770 seconds
 Complete requests:      2000
 Failed requests:        0
 Total transferred:      29490000 bytes
 HTML transferred:       29030000 bytes
-Requests per second:    247.54 [#/sec] (mean)
-Time per request:       323.186 [ms] (mean)
-Time per request:       4.040 [ms] (mean, across all concurrent requests)
-Transfer rate:          3564.36 [Kbytes/sec] received
+Requests per second:    295.41 [#/sec] (mean)
+Time per request:       372.363 [ms] (mean)
+Time per request:       3.385 [ms] (mean, across all concurrent requests)
+Transfer rate:          4253.74 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   1.0      0       9
-Processing:    53  314  94.3    286     763
-Waiting:       49  309  92.9    281     761
-Total:         62  315  94.0    286     763
+Connect:        0    1   2.2      0      15
+Processing:    84  360  61.1    356     583
+Waiting:       76  355  61.4    353     582
+Total:         96  360  60.0    356     583
 
 Percentage of the requests served within a certain time (ms)
-  50%    286
-  66%    313
-  75%    326
-  80%    337
-  90%    428
-  95%    512
-  98%    669
-  99%    678
- 100%    763 (longest request)
-< 2016-04-29T01:58:06Z
+  50%    356
+  66%    364
+  75%    374
+  80%    377
+  90%    389
+  95%    528
+  98%    571
+  99%    581
+ 100%    583 (longest request)
+< 2016-04-29T02:04:00Z
 ################################################################################
 # http://128.199.128.104:3000/api/official/up46341
-> 2016-04-29T01:58:06Z
+> 2016-04-29T02:04:00Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -153,38 +153,38 @@ Server Port:            3000
 Document Path:          /api/official/up46341
 Document Length:        1650 bytes
 
-Concurrency Level:      80
-Time taken for tests:   47.410 seconds
+Concurrency Level:      110
+Time taken for tests:   45.539 seconds
 Complete requests:      2000
 Failed requests:        0
 Total transferred:      3756000 bytes
 HTML transferred:       3300000 bytes
-Requests per second:    42.18 [#/sec] (mean)
-Time per request:       1896.419 [ms] (mean)
-Time per request:       23.705 [ms] (mean, across all concurrent requests)
-Transfer rate:          77.37 [Kbytes/sec] received
+Requests per second:    43.92 [#/sec] (mean)
+Time per request:       2504.634 [ms] (mean)
+Time per request:       22.769 [ms] (mean, across all concurrent requests)
+Transfer rate:          80.55 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   0.9      0       9
-Processing:  1048 1879 350.8   1728    3316
-Waiting:     1047 1876 350.6   1725    3313
-Total:       1048 1879 350.7   1728    3317
+Connect:        0    0   1.4      0       9
+Processing:  1320 2459 350.1   2358    4292
+Waiting:     1310 2457 350.1   2353    4290
+Total:       1328 2460 350.3   2358    4294
 
 Percentage of the requests served within a certain time (ms)
-  50%   1728
-  66%   1882
-  75%   2039
-  80%   2174
-  90%   2445
-  95%   2686
-  98%   2748
-  99%   2811
- 100%   3317 (longest request)
-< 2016-04-29T01:58:54Z
+  50%   2358
+  66%   2506
+  75%   2572
+  80%   2639
+  90%   2875
+  95%   3159
+  98%   3505
+  99%   3860
+ 100%   4294 (longest request)
+< 2016-04-29T02:04:45Z
 ################################################################################
 # http://128.199.128.104:3000/api/official?election=1&province=&municipal=&dong=
-> 2016-04-29T01:58:54Z
+> 2016-04-29T02:04:45Z
 This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -199,32 +199,32 @@ Server Port:            3000
 Document Path:          /api/official?election=1&province=&municipal=&dong=
 Document Length:        11999 bytes
 
-Concurrency Level:      80
-Time taken for tests:   8.217 seconds
+Concurrency Level:      110
+Time taken for tests:   6.294 seconds
 Complete requests:      2000
 Failed requests:        0
 Total transferred:      24458000 bytes
 HTML transferred:       23998000 bytes
-Requests per second:    243.41 [#/sec] (mean)
-Time per request:       328.668 [ms] (mean)
-Time per request:       4.108 [ms] (mean, across all concurrent requests)
-Transfer rate:          2906.86 [Kbytes/sec] received
+Requests per second:    317.76 [#/sec] (mean)
+Time per request:       346.170 [ms] (mean)
+Time per request:       3.147 [ms] (mean, across all concurrent requests)
+Transfer rate:          3794.85 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    0   1.7      0      13
-Processing:    65  325 121.9    275     750
-Waiting:       58  317 120.4    269     744
-Total:         76  325 121.5    275     750
+Connect:        0    1   2.4      0      15
+Processing:   125  338  39.2    349     389
+Waiting:       72  333  39.8    343     388
+Total:        139  339  37.6    349     389
 
 Percentage of the requests served within a certain time (ms)
-  50%    275
-  66%    311
-  75%    360
-  80%    427
-  90%    493
-  95%    630
-  98%    713
-  99%    727
- 100%    750 (longest request)
-< 2016-04-29T01:59:02Z
+  50%    349
+  66%    355
+  75%    364
+  80%    368
+  90%    373
+  95%    383
+  98%    387
+  99%    387
+ 100%    389 (longest request)
+< 2016-04-29T02:04:51Z
