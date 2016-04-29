@@ -1,0 +1,230 @@
+################################################################################
+# http://128.199.128.104:3000/api/org
+> 2016-04-29T01:52:42Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/org
+Document Length:        330 bytes
+
+Concurrency Level:      80
+Time taken for tests:   9.703 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1114000 bytes
+HTML transferred:       660000 bytes
+Requests per second:    206.12 [#/sec] (mean)
+Time per request:       388.132 [ms] (mean)
+Time per request:       4.852 [ms] (mean, across all concurrent requests)
+Transfer rate:          112.12 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.3      0      19
+Processing:   183  384 186.7    317    1118
+Waiting:      183  380 185.2    314    1114
+Total:        183  384 187.2    317    1118
+
+Percentage of the requests served within a certain time (ms)
+  50%    317
+  66%    341
+  75%    365
+  80%    402
+  90%    631
+  95%    878
+  98%   1052
+  99%   1076
+ 100%   1118 (longest request)
+< 2016-04-29T01:52:51Z
+################################################################################
+# http://128.199.128.104:3000/api/province
+> 2016-04-29T01:52:51Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/province
+Document Length:        569 bytes
+
+Concurrency Level:      80
+Time taken for tests:   11.701 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      1592000 bytes
+HTML transferred:       1138000 bytes
+Requests per second:    170.93 [#/sec] (mean)
+Time per request:       468.034 [ms] (mean)
+Time per request:       5.850 [ms] (mean, across all concurrent requests)
+Transfer rate:          132.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.2      0      11
+Processing:   150  462 139.8    412     951
+Waiting:      148  459 139.1    410     946
+Total:        161  463 139.6    412     951
+
+Percentage of the requests served within a certain time (ms)
+  50%    412
+  66%    428
+  75%    440
+  80%    502
+  90%    685
+  95%    862
+  98%    902
+  99%    938
+ 100%    951 (longest request)
+< 2016-04-29T01:53:03Z
+################################################################################
+# http://128.199.128.104:3000/api/official?keyword=
+> 2016-04-29T01:53:03Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official?keyword=
+Document Length:        14515 bytes
+
+Concurrency Level:      80
+Time taken for tests:   8.677 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      29490000 bytes
+HTML transferred:       29030000 bytes
+Requests per second:    230.50 [#/sec] (mean)
+Time per request:       347.075 [ms] (mean)
+Time per request:       4.338 [ms] (mean, across all concurrent requests)
+Transfer rate:          3319.03 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.1      0      10
+Processing:    49  343 118.0    284     677
+Waiting:       45  336 115.7    276     676
+Total:         59  343 117.6    284     677
+
+Percentage of the requests served within a certain time (ms)
+  50%    284
+  66%    361
+  75%    440
+  80%    484
+  90%    537
+  95%    559
+  98%    593
+  99%    613
+ 100%    677 (longest request)
+< 2016-04-29T01:53:12Z
+################################################################################
+# http://128.199.128.104:3000/api/official/up46341
+> 2016-04-29T01:53:12Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official/up46341
+Document Length:        1650 bytes
+
+Concurrency Level:      80
+Time taken for tests:   44.245 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      3756000 bytes
+HTML transferred:       3300000 bytes
+Requests per second:    45.20 [#/sec] (mean)
+Time per request:       1769.814 [ms] (mean)
+Time per request:       22.123 [ms] (mean, across all concurrent requests)
+Transfer rate:          82.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.0      0      10
+Processing:   707 1746 223.5   1672    2301
+Waiting:      703 1744 223.4   1670    2300
+Total:        716 1746 223.0   1672    2301
+
+Percentage of the requests served within a certain time (ms)
+  50%   1672
+  66%   1745
+  75%   1885
+  80%   1926
+  90%   2056
+  95%   2217
+  98%   2262
+  99%   2272
+ 100%   2301 (longest request)
+< 2016-04-29T01:53:56Z
+################################################################################
+# http://128.199.128.104:3000/api/official?election=1&province=&municipal=&dong=
+> 2016-04-29T01:53:56Z
+This is ApacheBench, Version 2.3 <$Revision: 1604373 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 128.199.128.104 (be patient)
+
+
+Server Software:        
+Server Hostname:        128.199.128.104
+Server Port:            3000
+
+Document Path:          /api/official?election=1&province=&municipal=&dong=
+Document Length:        11999 bytes
+
+Concurrency Level:      80
+Time taken for tests:   7.196 seconds
+Complete requests:      2000
+Failed requests:        0
+Total transferred:      24458000 bytes
+HTML transferred:       23998000 bytes
+Requests per second:    277.94 [#/sec] (mean)
+Time per request:       287.836 [ms] (mean)
+Time per request:       3.598 [ms] (mean, across all concurrent requests)
+Transfer rate:          3319.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.3      0      12
+Processing:    53  283  76.7    260     555
+Waiting:       47  276  77.1    256     553
+Total:         64  283  76.2    260     555
+
+Percentage of the requests served within a certain time (ms)
+  50%    260
+  66%    274
+  75%    286
+  80%    312
+  90%    376
+  95%    475
+  98%    517
+  99%    544
+ 100%    555 (longest request)
+< 2016-04-29T01:54:03Z
